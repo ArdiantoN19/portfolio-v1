@@ -69,7 +69,7 @@ const About = () => {
           <div className="mb-4 lg:w-1/2">
             <div className="relative group">
               <img
-                src="/public/img/ardi.png"
+                src="img/ardi.png"
                 alt="profile"
                 className="block bg-slate-100 brightness-95 grayscale mx-auto w-64 rounded group-hover:grayscale-0 "
               />
