@@ -76,7 +76,9 @@ const Navbar = () => {
                 ))}
                 <li className="my-5 ml-5 lg:my-0 lg:ml-0 lg:py-2">
                   <a
-                    href="#"
+                    href="https://drive.google.com/file/d/1-zT4PTbUMeX9aavSti4u4fZV4kEz7Uie/view?usp=share_link"
+                    target="_blank"
+                    rel="noreferrer"
                     className="ml-2 px-5 py-[.65rem] border border-primary rounded text-primary lg:text-sm hover:bg-primary hover:bg-opacity-10 hover:shadow hover:shadow-teal-500"
                   >
                     Resume

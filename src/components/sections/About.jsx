@@ -57,12 +57,12 @@ const About = () => {
                 role="list"
                 className="ml-5 font-fira text-[0.8rem] grid grid-cols-2 gap-1 center marker:text-primary list-disc "
               >
-                <li>HTML 5</li>
-                <li>CSS</li>
                 <li>JavaScript (ES6+)</li>
                 <li>Bootstrap</li>
                 <li>Tailwind</li>
                 <li>React Js</li>
+                <li>Redux</li>
+                <li>Node Js</li>
               </ul>
             </div>
           </div>
