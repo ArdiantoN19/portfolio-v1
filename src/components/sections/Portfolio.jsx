@@ -63,10 +63,16 @@ const Portfolio = () => {
                       href={portfolio.repository}
                       target="_blank"
                       rel="noreferrer"
+                      className="hover:text-primary"
                     >
                       <Github />
                     </a>
-                    <a href={portfolio.site} target="_blank" rel="noreferrer">
+                    <a
+                      href={portfolio.site}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="hover:text-primary"
+                    >
                       <External />
                     </a>
                   </div>

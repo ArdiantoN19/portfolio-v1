@@ -3,7 +3,6 @@ import { Github } from "./Github";
 import { Linkedin } from "./Linkedin";
 import { Instagram } from "./Instagram";
 import { Facebook } from "./Facebook";
-import { External } from "./External";
 
 const Icon = ({ logo }) => {
   switch (logo) {
@@ -15,8 +14,6 @@ const Icon = ({ logo }) => {
       return <Instagram />;
     case "Facebook":
       return <Facebook />;
-    case "External":
-      return <External />;
     default:
       return;
   }

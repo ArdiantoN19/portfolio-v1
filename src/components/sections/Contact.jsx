@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="flex justify-center">
             <a
               href="mailto:ardi19nugroho@gmail.com"
-              className="border border-primary rounded text-primary font-fira py-4 px-6 hover:bg-primary hover:bg-opacity-10"
+              className="border border-primary rounded text-primary font-fira py-4 px-6 hover:bg-primary hover:bg-opacity-10 hover:shadow hover:shadow-teal-500"
             >
               Say Hello
             </a>

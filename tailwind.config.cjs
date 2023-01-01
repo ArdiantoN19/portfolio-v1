@@ -17,6 +17,9 @@ module.exports = {
         fira: "Fira Code",
         inter: "Inter",
       },
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
+      },
     },
   },
   plugins: [],

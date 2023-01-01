@@ -1,6 +1,6 @@
 import React from "react";
 
-const Github = (wi = "6px") => {
+const Github = () => {
   return (
     <svg
       role="img"

@@ -9,9 +9,14 @@ const Project = () => {
         <div className="w-full mb-10 ">
           <h3 className="text-light text-xl font-bold text-center md:text-2xl">
             Other Projects
-            <span className="block text-primary font-normal font-fira mt-3 text-sm md:text-base">
+            <a
+              href="https://github.com/ArdiantoN19"
+              target="_blank"
+              rel="noreferrer"
+              className="block text-primary font-normal font-fira mt-3 text-sm md:text-base"
+            >
               view my current project
-            </span>
+            </a>
           </h3>
         </div>
         <div className="md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-3">

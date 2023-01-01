@@ -13,6 +13,7 @@ const Navbar = () => {
         setTop(true);
       }
     };
+
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -26,7 +27,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ${
+      className={`bg-transparent absolute top-0 left-0 w-full flex items-center z-10 transition-all duration-500 ${
         top ? "" : "navbar-fixed"
       }`}
     >
@@ -35,9 +36,14 @@ const Navbar = () => {
           <div className="px-4">
             <a
               href="#home"
-              className="font-bold text-xl text-primary block py-4"
+              className="font-bold text-[1.3rem] xl:text-2xl text-primary block py-4"
             >
-              Ardiantonugroho
+              <span className="font-fira block px-3 text-center rounded border transition-all duration-500 border-primary hover:bg-primary hover:bg-opacity-10 hover:shadow hover:shadow-teal-500 hover:rotate-[8deg] lg:hidden">
+                A
+              </span>
+              <span className="hidden font-fira lg:block px-3 py-1 text-center rounded transition-all duration-500 border-primar hover:tracking-wide">
+                Ardianto
+              </span>
             </a>
           </div>
           <div className="flex items-center px-4">
@@ -61,6 +67,7 @@ const Navbar = () => {
                     <a
                       href={href}
                       className="text-base text-light py-2 mx-8  flex group-hover:text-primary capitalize font-fira lg:mx-4 lg:text-sm"
+                      onClick={hamburgerOnHandler}
                     >
                       <span className="text-primary mr-1">0{index + 1}.</span>{" "}
                       {text}
@@ -70,7 +77,7 @@ const Navbar = () => {
                 <li className="my-5 ml-5 lg:my-0 lg:ml-0 lg:py-2">
                   <a
                     href="#"
-                    className="ml-2 px-5 py-[.65rem] border border-primary rounded text-primary lg:text-sm hover:bg-primary hover:bg-opacity-10"
+                    className="ml-2 px-5 py-[.65rem] border border-primary rounded text-primary lg:text-sm hover:bg-primary hover:bg-opacity-10 hover:shadow hover:shadow-teal-500"
                   >
                     Resume
                   </a>
