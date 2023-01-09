@@ -21,7 +21,7 @@ function Hero() {
         </p>
 
         <a
-          href="https://drive.google.com/file/d/1-zT4PTbUMeX9aavSti4u4fZV4kEz7Uie/view?usp=share_link"
+          href="https://drive.google.com/file/d/1zX8e-f9bmwxOAoIYSf26_1wx6oYZjocc/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="font-fira px-6 py-4 rounded border border-primary text-primary hover:bg-primary hover:bg-opacity-10 hover:shadow hover:shadow-teal-500
